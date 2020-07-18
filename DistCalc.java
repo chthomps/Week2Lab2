@@ -31,7 +31,8 @@ public class DistCalc {
 		DecimalFormat fmt = new DecimalFormat("0.###");
 		
 		System.out.println("The distance between your two coodrinates is:" + fmt.format(dist));
-		
+		scan.close();
+	
 		
 		
 	}
